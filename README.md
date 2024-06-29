@@ -6,6 +6,6 @@ This tool will erase all the data from the storage device and that can't restore
 
 ToDo List
 ---------
-zero fills
-one fills 
+zero fills, 
+one fills, 
 Windows Support
