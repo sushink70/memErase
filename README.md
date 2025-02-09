@@ -24,7 +24,9 @@ make
 
 ./memerase -d /media/username/DEVICE_NAME -i 2 -p mix
 
-## On Windows
+```
+
+### On Linux/macOS
 
 g++ -std=c++17 -O2 -Wall -o memerase.exe src/main.cpp src/utility.cpp src/overwrite.cpp
 
