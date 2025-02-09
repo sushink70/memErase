@@ -28,16 +28,24 @@ make
 
 ### On Linux/macOS
 
+```bash
 g++ -std=c++17 -O2 -Wall -o memerase.exe src/main.cpp src/utility.cpp src/overwrite.cpp
 
 memerase.exe -d D:\ -i 2 -p one
 
+```
+
+## Usage
+
+```bash
 Usage: memerase -d <device_path> -i <iterations> -p <fill_mode>
   -d <device_path>   The mount point or drive letter of the device to erase.
                      (e.g., /media/username/DEVICE_NAME on Linux,
                      /Volumes/DeviceName on macOS, or D:\ on Windows)
   -i <iterations>    Number of overwrite iterations (e.g., 2)
   -p <fill_mode>     Fill mode: "zero", "one", or "mix" (default: zero)
+
+```
 
 WARNING: This tool will overwrite all data on the target device and the data cannot be recovered.
 
@@ -66,3 +74,5 @@ $(TARGET): $(SOURCES)
 
 clean:
 	rm -f $(TARGET)
+  
+```
