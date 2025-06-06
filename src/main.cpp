@@ -105,3 +105,4 @@ int main(int argc, char* argv[]) {
     std::cout << "\nSecure erase completed successfully." << std::endl;
     return EXIT_SUCCESS;
 }
+//make std
